@@ -34,7 +34,7 @@ private $default = [
     private function setData($data = array())
     {
         foreach ($data as $key => $value){
-            $this->tpl->assign($key, $valeu);
+            $this->tpl->assign($key, $value);
         }
     }
     
