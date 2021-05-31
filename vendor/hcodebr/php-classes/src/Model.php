@@ -27,11 +27,11 @@ Class Model {
     }
 
     public function setData($data = array()) {
-
+       
         foreach ($data as $key => $value) { //excute
            $this->{"set".$key}($value);
         }
-
+        
     }
 
     public function getValues(){
