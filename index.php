@@ -9,6 +9,7 @@ $app = new Slim();
 
 $app->config('debug', true);
 
+require_once("views/functions.php");
 require_once("views/site.php");
 require_once("views/admin.php");
 require_once("views/admin-users.php");
